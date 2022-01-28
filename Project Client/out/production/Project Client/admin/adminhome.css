@@ -1,0 +1,39 @@
+#anchorPane{
+    -fx-background-color: #f0fcf0;
+}
+.text-field{
+    -fx-background-color: linear-gradient(to right, #9ce29e, rgba(43, 227, 112, 0.27));
+}
+.text-field:hover{
+    -fx-background-color: linear-gradient(to right, #87cb8b, rgba(80, 203, 134, 0.27));
+}
+#add{
+    -fx-background-color: limegreen;
+}
+#add:hover{
+    -fx-background-color: #2bb82b;
+}
+#delete{
+    -fx-background-color: orangered;
+}
+#delete:hover{
+    -fx-background-color: #e23e02;
+}
+#logout{
+    -fx-background-color: orangered;
+}
+#logout:hover{
+    -fx-background-color: #e23e02;
+}
+#refresh{
+    -fx-background-color: #e7e5e5;
+}
+#refresh:hover{
+    -fx-background-color: #d6d6d6;
+}
+.list-view {
+    -fx-background-color: transparent;
+}
+.list-view:hover{
+    -fx-background-color: #00ffae;
+}

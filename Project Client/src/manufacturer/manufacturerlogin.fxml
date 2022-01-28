@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="550.0" prefWidth="750.0" stylesheets="@manufacturerlogin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manufacturer.ManufacturerLoginController">
+   <children>
+      <TextField fx:id="username" layoutX="280.0" layoutY="210.0" prefHeight="20.0" prefWidth="200.0" promptText="username">
+         <font>
+            <Font name="Zilla Slab Italic" size="12.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="280.0" layoutY="297.0" prefHeight="20.0" prefWidth="200.0" promptText="password">
+         <font>
+            <Font name="Zilla Slab Italic" size="12.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="reset" layoutX="230.0" layoutY="385.0" mnemonicParsing="false" onAction="#reset" prefHeight="40.0" prefWidth="100.0" text="Reset">
+         <font>
+            <Font name="Zilla Slab" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon glyphName="UNDO" />
+         </graphic>
+      </Button>
+      <Button fx:id="login" layoutX="430.0" layoutY="385.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="100.0" text="Login">
+         <font>
+            <Font name="Zilla Slab" size="14.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon glyphName="SIGN_IN" />
+         </graphic>
+      </Button>
+      <Text layoutX="219.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manufacturer Login">
+         <font>
+            <Font name="Zilla Slab" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="654.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="60.0" text="Back">
+         <graphic>
+            <FontAwesomeIcon glyphName="ARROW_LEFT" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

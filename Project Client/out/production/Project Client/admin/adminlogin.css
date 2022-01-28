@@ -1,0 +1,27 @@
+#anchorPane{
+    -fx-background-color: #f0fcf0;
+}
+.text-field{
+    -fx-background-color: linear-gradient(to right, #9ce29e, rgba(43, 227, 112, 0.27));
+}
+.text-field:hover{
+    -fx-background-color: linear-gradient(to right, #87cb8b, rgba(80, 203, 134, 0.27));
+}
+#reset{
+    -fx-background-color: orangered;
+}
+#reset:hover{
+    -fx-background-color: #de3a01;
+}
+#login{
+    -fx-background-color: limegreen;
+}
+#login:hover{
+    -fx-background-color: #2fb82f;
+}
+#back {
+    -fx-background-color: orangered;
+}
+#back:hover{
+    -fx-background-color: #de3a01;
+}

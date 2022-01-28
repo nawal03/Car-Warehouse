@@ -1,0 +1,27 @@
+#anchorPane{
+    -fx-background-color: #edfdff;
+}
+.text-field{
+    -fx-background-color: linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+.text-field:hover{
+    -fx-background-color: linear-gradient(to right, rgb(115, 204, 231), rgba(110, 151, 155, 0.27));
+}
+#reset{
+    -fx-background-color: orangered;
+}
+#reset:hover{
+    -fx-background-color: #de3a01;
+}
+#login{
+    -fx-background-color: limegreen;
+}
+#login:hover{
+    -fx-background-color: #2fb82f;
+}
+#back {
+    -fx-background-color: orangered;
+}
+#back:hover{
+    -fx-background-color: #de3a01;
+}

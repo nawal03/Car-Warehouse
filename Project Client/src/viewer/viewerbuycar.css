@@ -1,0 +1,22 @@
+#anchorPane{
+    -fx-background-color: #fcf5f5;
+}
+#confirm{
+    -fx-background-color: lime;
+}
+#confirm:hover{
+    -fx-background-color: #02d902;
+}
+
+#cancel{
+    -fx-background-color: orangered;
+}
+#cancel:hover{
+    -fx-background-color: #d63c03;
+}
+.text-field{
+    -fx-background-color: linear-gradient(to bottom, rgb(241, 203, 203), rgb(241, 225, 220));
+}
+.text-field:hover{
+    -fx-background-color: linear-gradient(to bottom, rgb(221, 187, 187), rgb(214, 201, 197));
+}

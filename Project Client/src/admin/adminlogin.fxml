@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="550.0" prefWidth="750.0" stylesheets="@adminlogin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminLoginController">
+   <children>
+      <PasswordField fx:id="passwordText" layoutX="280.0" layoutY="302.0" prefHeight="24.0" prefWidth="202.0" promptText="password">
+         <font>
+            <Font name="Zilla Slab Italic" size="12.0" />
+         </font></PasswordField>
+      <TextField fx:id="usernameText" layoutX="280.0" layoutY="210.0" prefHeight="24.0" prefWidth="202.0" promptText="username">
+         <font>
+            <Font name="Zilla Slab Italic" size="12.0" />
+         </font></TextField>
+      <Button fx:id="back" layoutX="626.0" layoutY="44.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" text="Back">
+         <font>
+            <Font name="Zilla Slab Light" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon glyphName="ARROW_LEFT" />
+         </graphic></Button>
+      <Button fx:id="reset" layoutX="230.0" layoutY="385.0" mnemonicParsing="false" onAction="#reset" prefHeight="40.0" prefWidth="100.0" text="Reset">
+         <font>
+            <Font name="Zilla Slab" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon glyphName="UNDO" />
+         </graphic></Button>
+      <Button fx:id="login" layoutX="432.0" layoutY="385.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="100.0" text="Login">
+         <font>
+            <Font name="Zilla Slab" size="12.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIcon glyphName="SIGN_IN" />
+         </graphic></Button>
+      <Text layoutX="280.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login">
+         <font>
+            <Font name="Zilla Slab" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

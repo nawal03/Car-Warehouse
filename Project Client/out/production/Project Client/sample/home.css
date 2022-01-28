@@ -1,0 +1,10 @@
+#anchorPane {
+    -fx-background-color:  linear-gradient(to right, #ecc7aa, rgb(236, 233, 213));
+}
+
+.button{
+    -fx-background-color: #ef8617;
+}
+.button:hover{
+    -fx-background-color: #ca6b03;
+}

@@ -1,0 +1,97 @@
+#anchorPane{
+    -fx-background-color: #fcf5f5;
+}
+
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-column.column-header{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, rgb(241, 203, 203), rgb(241, 225, 220));
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:hover {
+    -fx-background-color: rgb(234, 162, 210);
+    -fx-text-background-color: black;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color: linear-gradient(to bottom, rgb(241, 203, 203), rgb(241, 225, 220));
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color: linear-gradient(to bottom, rgb(241, 203, 203), rgb(241, 225, 220));
+}
+
+.text-field{
+    -fx-background-color: linear-gradient(to bottom, rgb(241, 203, 203), rgb(241, 225, 220));
+}
+.text-field:hover{
+    -fx-background-color: linear-gradient(to bottom, rgb(221, 187, 187), rgb(214, 201, 197));
+}
+#viewImage{
+    -fx-background-color: #ffa500;
+}
+#viewImage:hover {
+    -fx-background-color: #e79705;
+}
+
+#refresh{
+    -fx-background-color: #e7e5e5;
+}
+#refresh:hover{
+    -fx-background-color: #d6d6d6;
+}
+
+#back{
+    -fx-background-color: orangered;
+}
+#back:hover{
+    -fx-background-color: #e23d00;
+}
+
+#buyCar{
+    -fx-background-color: lime;
+}
+
+#buyCar:hover{
+    -fx-background-color: #02d202;
+}
+#search{
+    -fx-background-color: skyblue;
+}
+#search:hover{
+    -fx-background-color: #75b5cf;
+}
+#reset{
+    -fx-background-color: #e9e90a;
+}
+#reset:hover{
+    -fx-background-color: #c4c407;
+}
+

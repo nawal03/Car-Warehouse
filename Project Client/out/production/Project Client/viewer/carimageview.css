@@ -1,0 +1,9 @@
+#anchorPane{
+    -fx-background-color: #fcf5f5;
+}
+#back{
+    -fx-background-color: orangered;
+}
+#back:hover{
+    -fx-background-color: #e23d00;
+}

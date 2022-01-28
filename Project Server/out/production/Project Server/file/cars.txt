@@ -1,0 +1,5 @@
+abcx,Lamborghini,Roadster,Silver,Yellow,,2018,12345,12,C:\Users\Asus\Downloads\lamborghini Roadster.jpg
+maryx,Lamborghini,Evo,Green,Orange,Yellow,2018,123467,7,C:\Users\Asus\Downloads\lamborghini evo.jpg
+7777,Porsche,186252,Red,Black,,2017,4999999,2,C:\Users\Asus\Downloads\porsche 1763.jpg
+jipsy,BMW,1122,Black,,,2015,29999,1,C:\Users\Asus\Downloads\bmw 1122.jpg
+1234,Ferrari,spider,Yellow,,,2020,12345,0,C:\Users\Asus\Downloads\ferrari spider.jpg
